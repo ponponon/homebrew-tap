@@ -4,30 +4,30 @@
 class Openctrlc < Formula
   desc "The AI coding agent built for the terminal"
   homepage "https://github.com/ponponon/openctrlc"
-  version "1.1.12"
+  version "1.1.13"
   license "MIT"
 
   depends_on "ripgrep"
 
   on_macos do
     on_arm do
-      url "https://github.com/ponponon/openctrlc/releases/download/v1.1.12/openctrlc-darwin-arm64.zip"
-      sha256 "4d91e805efd6e292faa8201676e3ff22c60559c1e856a5700f595118d2fc52b9"
+      url "https://github.com/ponponon/openctrlc/releases/download/v1.1.13/openctrlc-darwin-arm64.zip"
+      sha256 "3dc23baebadffb8885467cc9d157a26c8f5a3a966561753121d3c2357f3da449"
     end
     on_intel do
-      url "https://github.com/ponponon/openctrlc/releases/download/v1.1.12/openctrlc-darwin-x64.zip"
-      sha256 "a7612962a50566bfe01e728a39c51d6872d72ef54fa4e65e088f1cd26734d429"
+      url "https://github.com/ponponon/openctrlc/releases/download/v1.1.13/openctrlc-darwin-x64.zip"
+      sha256 "d012e97dca8b7e25d6676ce030b9a7e69e70a4d6a22e2efcd33251244633684f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ponponon/openctrlc/releases/download/v1.1.12/openctrlc-linux-arm64.tar.gz"
-      sha256 "011bd08b1808d366fe862dcee49648cc2bbfb61f56fa6d2ca224455bb787f2c9"
+      url "https://github.com/ponponon/openctrlc/releases/download/v1.1.13/openctrlc-linux-arm64.tar.gz"
+      sha256 "97cfbbc2a01f99a0ae180e66eec71f241edf54c1f54caf4428f8bceca73670c9"
     end
     on_intel do
-      url "https://github.com/ponponon/openctrlc/releases/download/v1.1.12/openctrlc-linux-x64.tar.gz"
-      sha256 "52e8f4c29c82b49c102de3d81f9df57b4c595857ea1c2618fcf208256537bd34"
+      url "https://github.com/ponponon/openctrlc/releases/download/v1.1.13/openctrlc-linux-x64.tar.gz"
+      sha256 "759cbd1c2368fb418685c74ebd64831e74c99ec6bd0f051ddf093a2b5bcaaa15"
     end
   end
 
